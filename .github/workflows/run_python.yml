@@ -29,6 +29,8 @@ jobs:
       # Passo 3: Instalar as bibliotecas do requirements.txt
       # ESTE É O PASSO MAIS IMPORTANTE PARA VOCÊ
       - name: Install dependencies
+      # Adicione esta linha para entrar na pasta correta primeiro
+        working-directory: ./python_code
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
@@ -36,4 +38,6 @@ jobs:
       # Passo 4: Executar o seu script Python
       # TROQUE 'app.py' PELO NOME DO SEU ARQUIVO PYTHON
       - name: Run script
+        # Adicione esta linha aqui também
+        working-directory: ./python_code
         run: python app.py
