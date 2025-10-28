@@ -1,4 +1,4 @@
-LangChain e integrações
+# LangChain e integrações
 
 langchain==0.3.13
 langchain-core==0.3.56
@@ -7,21 +7,21 @@ langchain-community==0.3.0
 langchain-huggingface==0.1.2
 langchain-chroma==0.1.4
 
-Hugging Face
+# Hugging Face
 
 transformers==4.47.1
 huggingface_hub==0.27.0
 sentence-transformers==3.3.1
 
-Modelagem de dados
+# Modelagem de dados
 
 pydantic==2.7.4
 
-OpenAI
+# OpenAI
 
 openai==1.55.3
 
-Outros utilitários
+# Outros utilitários
 
 ipykernel
 jinja2==3.1.4
