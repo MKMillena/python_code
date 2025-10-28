@@ -36,6 +36,4 @@ jobs:
       # Passo 4: Executar o seu script Python
       # TROQUE 'app.py' PELO NOME DO SEU ARQUIVO PYTHON
       - name: Run script
-        # Adicione esta linha aqui também
-        working-directory: ./python_code
         run: python pythonTest.py
